@@ -25,8 +25,8 @@ public class BankAccount {
         return this.balance;
 
     }
-    public double  WithdrawFunds(double funds){
-        if(this.balance - funds < 0){
+    public double WithdrawFunds(double funds){
+        if((this.balance - funds) < 0){
             this.balance = 0;
         }else {
             this.balance = this.balance - funds;
