@@ -10,7 +10,7 @@ public class BankAccountTest2 {
     }
     @Test
     public void TestCorrectDepositFunds() {
-        assertEquals(5.5,account.DepositFunds(3),0.1 );
+        assertEquals(4.5,account.DepositFunds(2),0.1 );
     }
     @Test
     public void TestCorrectWithdrawFunds() {
