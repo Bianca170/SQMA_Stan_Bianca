@@ -14,6 +14,6 @@ public class BankAccountTest2 {
     }
     @Test
     public void TestCorrectWithdrawFunds() {
-        assertEquals(00.0,account.WithdrawFunds(5),0.1);
+        assertEquals(0,account.WithdrawFunds(5),0.1);
     }
 }
