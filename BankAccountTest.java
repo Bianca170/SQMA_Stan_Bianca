@@ -1,6 +1,3 @@
-package Tests;
-
-import com.BankAccount;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
