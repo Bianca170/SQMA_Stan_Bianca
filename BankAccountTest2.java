@@ -1,6 +1,7 @@
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
+
 public class BankAccountTest2 {
     private static BankAccount account;
     @BeforeClass
