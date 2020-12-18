@@ -29,7 +29,7 @@ public class BankAccount {
         if(this.balance - funds < 0){
             this.balance = 0;
         }else {
-            this.balance -= funds;
+            this.balance = this.balance - funds;
 
         }
         return this.balance ;
