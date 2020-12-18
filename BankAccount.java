@@ -21,7 +21,7 @@ public class BankAccount {
         this("99999",100.55,customerName,email,phoneNumber);
     }
     public double DepositFunds(double funds ){
-        this.balance +=funds;
+        this.balance = this.balance + funds;
         return this.balance;
 
     }
